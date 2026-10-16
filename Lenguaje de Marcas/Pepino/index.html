@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Este es el titulo de la web que sale en la pestaña de internet-->
+    <title>Pepinos Ecologicos</title>
+
+</head>
+<body>
+    
+    <h1>Pepinos Ecologicos</h1>
+    <h2> los mejores pepinos del campo</h2>
+    <h3> ecológicos a buen precio</h3>
+
+    <p> Aqui vas s podeer obtener la mejor calidad de pepinos ecologicos</p>   
+    <br>
+    <p> del campo a la mesa</p>
+    <a href="https://www.google.com/?hl=es" target="_blank">Clic aquí</a>
+    <br>
+
+    <img
+        src="pepi.jpg"  
+        width="120" height="120" 
+        alt= "pepino en rodajas">
+
+    <!--las etiquetas de lista se usan para cualquier serie de elementos que se quieren enumerar -->
+    <h2> tipos de pepinos </h2>
+    <ul> <!--lista de elementos el cual el orden no tiene importancia-->
+
+        <li><a href= "https://www.google.com" >Pepino albino</a></li>
+        <li> pepino comun </li>
+        <li> pepino kirby</li>
+    </ul>
+
+    <ol> <!-- listas numericas ordenadas-->
+        <li><a href= "https://www.google.com" >Pepino albino</a></li>
+        <li> pepino comun </li>
+        <li> pepino kirby</li>
+    </ol>
+
+    <!-- La creacion de una tabla -->
+     <h2> LISTA DE PEDIDOS</h2>
+    <table border="1">
+        <!--  <thead> con <tr> y lurgo <th> = encabezado de la tabla /<tbody> con <tr> las filas de la tabla / <td> las celdas de cada fila / <tfoot> es como una linea resumen -->
+        <thead>
+            <tr>
+                <th> numero de pedido </th>
+                <th> fecha</th>
+                <th> importe </th>
+                <th> ver </th>
+                <th colspan="2"> accion </th> <!-- colspan= "" aumenta la columna -->
+            </tr>
+        </thead>    
+        <tbody>
+            <tr>
+                <td>#1234</td> <!-- rowspan="" aumenta la fila -->
+                <td>12/12/2026</td>
+                <td>123,15</td>
+                <td><button type="button">Clic</button></td>
+                <td><button type="button">Editar</button></td>
+                <td><button type="button">Borrar</button></td>
+            </tr>
+             <tr>
+                <td>#5678</td>
+                <td>12/12/2026</td>
+                <td>123,15</td>
+                <td><button type="button">Clic</button></td>
+                <td><button type="button">Editar</button></td>
+                <td><button type="button">Borrar</button></td>
+            </tr>
+             <tr>
+                <td>#9101</td>
+                <td>12/12/2026</td>
+                <td>123,15</td>
+                <td><button type="button">Clic</button></td>
+                <td><button type="button">Editar</button></td>
+                <td><button type="button">Borrar</button></td>
+            </tr>
+             <tr>
+                <td>#1213</td>
+                <td>12/12/2026</td>
+                <td>123,15</td>
+                <td><button type="button">Clic</button></td>
+                <td><button type="button">Editar</button></td>
+                <td><button type="button">Borrar</button></td>
+            </tr>
+
+        </tbody>
+       <tfoot>
+            <tr>
+                <td colspan="6">Total de pedidos: 4 </td>
+            </tr>
+       </tfoot>
+        
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- etsructura de un formulario-->
+     <h3>Introduce datos de registro</h3>
+     <form>
+        <legend>Datos de registro </legend>
+        <br>
+        <label>Nombre:
+             <input type="text" placeholder="Escribe aqui tu nombre" required>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+
+     </form>
+</body>
+</html>
