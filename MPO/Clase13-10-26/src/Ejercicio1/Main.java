@@ -7,6 +7,7 @@ public class Main {
         //-> Nombre de la clase + nombre del objeto = new + nombre del constructor +();
         // (el nombre del constructor es el nombre de la clase)
 
+        
 
         Cuenta c1 = new Cuenta("pepe",1.45, "ES263524189", 1000);
         Cuenta c2 = new Cuenta();

@@ -102,15 +102,136 @@
     <!-- etsructura de un formulario-->
      <h3>Introduce datos de registro</h3>
      <form>
-        <legend>Datos de registro </legend>
+       
+     <fieldset>
+    <legend> Datos de Registro </legend>
         <br>
         <label>Nombre:
              <input type="text" placeholder="Escribe aqui tu nombre" required>
         </label>
+
         <br>
         <br>
+
         <button type="submit">Enviar</button>
 
+        <label>
+
+            Edad:
+            <input type="number" min="2"  max="5" step="0.1">
+            
+        </label>
+
+            <br>
+            <br>
+
+        <label>
+
+            Fecha de nacimiento: 
+            <input type="date">
+            
+        </label>
+
+        <br>
+        <br>
+
+        <label>
+
+            Email: 
+            <input type="email" placeholder="Escribe tu email">
+    
+        </label>
+        
+        <br>
+        <br>
+
+        <label>
+
+            telefono: 
+            <input type="tel" placeholder="Escribe tu telefono">
+            
+        </label>
+        
+        <br>
+        <br>
+ 
+        <label>
+
+            Contraseña: 
+            <input type="password"  minlength="8" placeholder="Escribe tu contraseña">
+           
+
+            
+     </fieldset> 
+     <button type="submit" ></button>
+    
+        </label>
+        <label>
+            <fieldset>
+                <legend> Fecha, hora y número </legend>
+    
+        </label>
+        <br>
+        <br>
+        <label> 
+            Hora:
+            <input type="time">
+        </label>
+         <label>
+            fecha y hora:
+            <input type ="datetime-local">
+         </label>
+         <label>
+            mes:
+            <input type="month">
+         </label>
+
+         <br>
+         <br>
+
+         <label>
+            semana:
+            <input type ="week">
+         </label>
+         <br>
+         <br>
+
+         <label>
+            Color:
+            <input type = "color" value="#FF0000">
+         </label>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Selectores </legend> 
+            <fieldset>
+                <legend> Tipo de pepino</legend>
+                <input type = "radio" id="verde" name="tipo_pepino">
+                <label>Verde</label>
+
+                <input type = "radio" id="amarillo" name="tipo_pepino">
+                <label>Amarillo</label>
+
+                <input type ="radio" id="rojo" name="tipo_pepino">
+                <label> Rojo </label>
+            </fieldset>
+        </fieldset>
+            <button type="submit">Enviar</button>
+            <fieldset>
+              <legend> Extras </legend>
+              <input type="checkbox" id="ketchup" name="extras">
+                <label for="ketchup"> Ketchup </label>
+              <input type ="checkbox" id="mostaza" name="extras">
+                <label for="mostaza"> Mostaza </label>
+              <input type="checkbox" id="mayonesa" name="extras">
+                <label for="mayonesa"> Mayonesa </label>
+            </fieldset>
+            <button type="submit">Enviar</button>
      </form>
+
+
+     
 </body>
 </html>
