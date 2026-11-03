@@ -1,5 +1,5 @@
-package main;
-import com.sun.tools.javac.Main;
+package ejercicioRectangulo;
+
 public class Rectangulo {
 
     double base;

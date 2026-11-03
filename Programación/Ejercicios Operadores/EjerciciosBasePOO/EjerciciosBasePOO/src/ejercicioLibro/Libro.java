@@ -1,6 +1,4 @@
-package main;
-
-import javax.imageio.stream.ImageInputStream;
+package ejercicioLibro;
 
 public class Libro {
 

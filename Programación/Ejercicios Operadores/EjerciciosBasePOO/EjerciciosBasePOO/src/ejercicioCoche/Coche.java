@@ -1,3 +1,5 @@
+package ejercicioCoche;
+
 public class Coche {
 
     private String marca;

@@ -1,4 +1,4 @@
-package main;
+package ejercicioEstudiante;
 
 public class MainEstudiante {
 
@@ -8,6 +8,6 @@ public class MainEstudiante {
 
         System.out.println("EStudiante 1: " + e1.getNombre() + " - "
                 + e1.getCurso() + " - Matriculado: " + e1.isMatriculado());
-        System.out.println("Estudiante 2: " + e2.getNombre() + " - " +e2.getCurso() + " - Matriculado: " +e2.isMatriculado());
+        System.out.println("ejercicioEstudiante.Estudiante 2: " + e2.getNombre() + " - " +e2.getCurso() + " - Matriculado: " +e2.isMatriculado());
     }
 }
